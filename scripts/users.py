@@ -4,28 +4,30 @@ from uuid import uuid5, NAMESPACE_OID
 from distutils import util
 import json
 
-dataPath = ("%s/../data/") % os.path.dirname(os.path.realpath(__file__))
-with open(("%s/../data/exp-placeholder.txt") % os.path.dirname(os.path.realpath(__file__)), "r") as eC:
+dirPath = os.path.dirname(os.path.realpath(__file__))
+dataPath = f"{dirPath}/../data/"
+with open(f"{dirPath}/../data/exp-placeholder.txt", "r") as eC:
     expConf = "".join(eC.readlines())
-with open(("%s/../data/gold-placeholder.txt") % os.path.dirname(os.path.realpath(__file__)), "r") as gC:
+with open(f"{dirPath}/../data/gold-placeholder.txt", "r") as gC:
     goldConf = "".join(gC.readlines())
 
 def unpack(username, path):
-    tar = tarfile.open(("%sMfBot_Template.tar") % (dataPath), "r:")
-    tar.extractall(("%s%s") % (path, uuid5(NAMESPACE_OID, username)))
+    tar = tarfile.open(f"{dataPath}MfBot_Template.tar", "r:")
+    hashName = uuid5(NAMESPACE_OID, username)
+    tar.extractall(f"{path}{hashName}")
     tar.close()
 
 def __init__():
-    if not os.path.exists(("%smfbot_accounts") % dataPath):
-        os.mkdir(("%smfbot_accounts") % dataPath)
+    if not os.path.exists(f"{dataPath}mfbot_accounts"):
+        os.mkdir(f"{dataPath}mfbot_accounts")
 
 def load_json():
-    with open(("%s/../data/users.json") % os.path.dirname(os.path.realpath(__file__))) as f:
+    with open(f"{dirPath}/../data/users.json") as f:
         data = json.load(f)
     return data
 
 def save_json(data):
-    with open(("%s/../data/users.json") % os.path.dirname(os.path.realpath(__file__)), "w") as f:
+    with open(f"{dirPath}/../data/users.json", "w") as f:
         json.dump(data, f)
     f.close()
 
@@ -35,18 +37,20 @@ def change_config(row, path):
             ini_append = goldConf
         else:
             ini_append = expConf
+        hashName = uuid5(NAMESPACE_OID, row['username'])
         ini_append = ini_append.replace("${username}.upper", row['username'].upper()).replace("${username}", row['username']).replace("${server}.upper", row['server'].upper()).replace("${server}", row['server']).replace("${password}", row['password'])
-        ini = open(("%s%s/Acc.ini") % (path, uuid5(NAMESPACE_OID, row['username'])), "w")
+        ini = open(f"{path}{hashName}/Acc.ini", "w")
         ini.write("\n")
         ini.write(ini_append)
         ini.close()
 
 def create_acc_folders(row):
-    accPath = ("%smfbot_accounts/") % dataPath
+    accPath = f"{dataPath}mfbot_accounts/"
+    hashName = uuid5(NAMESPACE_OID, row['username'])
     if not row['disabled']:
-        if not os.path.exists(("%s%s") % (accPath, uuid5(NAMESPACE_OID, row['username']))):
-            os.mkdir(("%s%s") % (accPath, uuid5(NAMESPACE_OID, row['username'])))
-        if len(os.listdir(("%s%s") % (accPath, uuid5(NAMESPACE_OID, row['username'])))) == 0:
+        if not os.path.exists(f"{accPath}{hashName}"):
+            os.mkdir(f"{accPath}{hashName}")
+        if len(os.listdir(f"{accPath}{hashName}")) == 0:
             unpack(row['username'], accPath)
             change_config(row, accPath)
 
