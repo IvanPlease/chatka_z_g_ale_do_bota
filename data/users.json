@@ -1,0 +1,404 @@
+{
+    "accounts": [
+        {
+            "id": 1,
+			"server": "s39.sfgame.pl",
+            "username": "QueIvan",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 2,
+			"server": "s39.sfgame.pl",
+            "username": "Sunaubin Udakur",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 3,
+			"server": "s39.sfgame.pl",
+            "username": "Xuibak Yarador",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 4,
+			"server": "s39.sfgame.pl",
+            "username": "Zewurin Yepilek",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 5,
+			"server": "s39.sfgame.pl",
+            "username": "Vuxogek Eurkilis",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 6,
+			"server": "s39.sfgame.pl",
+            "username": "Stelamer Goobos",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 7,
+			"server": "s39.sfgame.pl",
+            "username": "Vubamo Fobochax",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 8,
+			"server": "s39.sfgame.pl",
+            "username": "Prokorin Syreben",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 9,
+			"server": "s39.sfgame.pl",
+            "username": "Melephos Wimylor",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 10,
+			"server": "s39.sfgame.pl",
+            "username": "Tixigi Duckauror",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 11,
+			"server": "s39.sfgame.pl",
+            "username": "Kemabir Kruparir",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 12,
+			"server": "s39.sfgame.pl",
+            "username": "Doygack Tipikas",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 13,
+			"server": "s39.sfgame.pl",
+            "username": "Apebod Yadegos",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 14,
+			"server": "s39.sfgame.pl",
+            "username": "Stiromi Eulubitz",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 15,
+			"server": "s39.sfgame.pl",
+            "username": "Tostakik Naeger",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 16,
+			"server": "s39.sfgame.pl",
+            "username": "Spudukir Kovado",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 17,
+			"server": "s39.sfgame.pl",
+            "username": "Meppedu Ilebeck",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 18,
+			"server": "s39.sfgame.pl",
+            "username": "Penadyk Jotzomax",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 19,
+			"server": "s39.sfgame.pl",
+            "username": "Vamogick Xoechin",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 20,
+			"server": "s39.sfgame.pl",
+            "username": "Lieuron Benared",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 21,
+			"server": "s39.sfgame.pl",
+            "username": "Kawalis Cemperos",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 22,
+			"server": "s39.sfgame.pl",
+            "username": "Domures Ziekor",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 23,
+			"server": "s39.sfgame.pl",
+            "username": "Kebukock Spadigi",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 24,
+			"server": "s39.sfgame.pl",
+            "username": "Iledast Jostaubo",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 25,
+			"server": "s39.sfgame.pl",
+            "username": "Fuvadotz Budalak",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 26,
+			"server": "s39.sfgame.pl",
+            "username": "Wimibur Nonekost",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 27,
+			"server": "s39.sfgame.pl",
+            "username": "Mubobor Spoaudor",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 28,
+			"server": "s39.sfgame.pl",
+            "username": "Spimudix Avymok",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 29,
+			"server": "s39.sfgame.pl",
+            "username": "Ereugo Gelimak",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 30,
+			"server": "s39.sfgame.pl",
+            "username": "Aupidir Phudubad",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 31,
+			"server": "s39.sfgame.pl",
+            "username": "Quirider Aunidin",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 32,
+			"server": "s39.sfgame.pl",
+            "username": "Garurix Arugyn",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 33,
+			"server": "s39.sfgame.pl",
+            "username": "Buumist Zexorin",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 34,
+			"server": "s39.sfgame.pl",
+            "username": "Coleches Vixamod",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 35,
+			"server": "s39.sfgame.pl",
+            "username": "Culauku Philebes",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 36,
+			"server": "s39.sfgame.pl",
+            "username": "Cubymok Vurylis",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 37,
+			"server": "s39.sfgame.pl",
+            "username": "Xiluchok Zomegur",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 38,
+			"server": "s39.sfgame.pl",
+            "username": "Lixogan Cawemos",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 39,
+			"server": "s39.sfgame.pl",
+            "username": "Eumemok Yumpedir",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 40,
+			"server": "s39.sfgame.pl",
+            "username": "Derumon Cobechor",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 41,
+			"server": "s39.sfgame.pl",
+            "username": "Xelastir Vedidor",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 42,
+			"server": "s39.sfgame.pl",
+            "username": "Joxabo Sanolak",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 43,
+			"server": "s39.sfgame.pl",
+            "username": "Banobex Conuben",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 44,
+			"server": "s39.sfgame.pl",
+            "username": "Vilulux Lelsebir",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 45,
+			"server": "s39.sfgame.pl",
+            "username": "Aunibon Towistak",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 46,
+			"server": "s39.sfgame.pl",
+            "username": "Sempilok Depurox",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 47,
+			"server": "s39.sfgame.pl",
+            "username": "Quilugis Widobyr",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 48,
+			"server": "s39.sfgame.pl",
+            "username": "Viwudi Yulagik",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 49,
+			"server": "s39.sfgame.pl",
+            "username": "Daygest Derumux",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        },
+        {
+            "id": 50,
+			"server": "s39.sfgame.pl",
+            "username": "Karuches Uidust",
+            "type": "Experience",
+			"password": "Kaczka123",
+            "disabled": false 
+        }
+    ]
+}
