@@ -1,9 +1,15 @@
 from mfbot import *
+import pkg_resources
 
 _ = lang.gettext
 
+__version__ = pkg_resources.get_distribution("mfbot-controller").version
+
 if __name__ == "__main__":
 
+    if not args.version == None:
+        print(f"mfbot: version: {__version__}")
+        parser.exit()
     if not args.on_range == None:
         startbots(get_range(args.on_range))
     if not args.off_range == None:

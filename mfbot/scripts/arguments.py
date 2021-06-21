@@ -5,6 +5,7 @@ argparse._ = lang.gettext
 argparse.ngettext = lang.gettext
 
 parser = argparse.ArgumentParser(prog="mfbot")
+parser.add_argument("-v", "--version", action="store_true", help=argparse._("show program's version number and exit"))
 
 control = parser.add_argument_group(argparse._('program controls'))
 control.add_argument("-r", "--run", dest="on_range", help=argparse._("run bots for accounts with given ids"))
